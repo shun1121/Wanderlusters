@@ -2,14 +2,14 @@
 // To connect with your mongoDB database
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb://localhost:27017/",
+  "mongodb+srv://darklord:webwarrior@cluster0.u0zvd.mongodb.net/wanderlustersdb?retryWrites=true&w=majority",
   {
-    dbName: "wlDatabase",
+    dbName: "wanderlustersdb",
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },
   (err) =>
-    err ? console.log(err) : console.log("Connected to wlDatabase database")
+    err ? console.log(err) : console.log("Connected to wanderlusters database")
 );
 
 // Schema for users of app
@@ -47,6 +47,7 @@ const UserSchema2 = new mongoose.Schema({
   },
 });
 
+const port=process.env.PORT || 5000;
 const User = mongoose.model("users", UserSchema);
 const User2 = mongoose.model("users2", UserSchema2);
 User.createIndexes();
@@ -107,4 +108,4 @@ app.post("/login", async (req, res) => {
     resp.send("We're sorry but some error occured!!!!!!!!!!!!");
   }
 });
-app.listen(5000);
+app.listen(port);
