@@ -82,7 +82,8 @@ app.post("/register", async (req, resp) => {
       console.log("User already registered");
     }
   } catch (e) {
-    resp.send("Something Went Wrong");
+    console.log(e);
+    resp.send({ "message":"Something Went Wrong"});
   }
 });
 app.post("/login", async (req, res) => {
