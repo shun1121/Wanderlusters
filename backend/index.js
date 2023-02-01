@@ -2,7 +2,7 @@
 // To connect with your mongoDB database
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://darklord:webwarrior@cluster0.u0zvd.mongodb.net/wanderlustersdb?retryWrites=true&w=majority",
+  "mongodb+srv://adam:pass123@cluster0.j8zo3j4.mongodb.net/?retryWrites=true&w=majority",
   {
     dbName: "wanderlustersdb",
     useNewUrlParser: true,

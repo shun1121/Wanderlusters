@@ -7,7 +7,7 @@ import Footer from "./Components/footer";
 import Thanks from "./Components/Thanks";
 import LoginForm from "./Components/LoginForm";
 import Gallery from "./Components/Gallery";
-import ContactUS from "./Components/ContactUS";
+import ContactUS from "./Components/ContactUs";
 import SignupForm from "./Components/SignupForm";
 import ScrollToTop from "./Components/ScrollToTop";
 import Place1 from "./Components/Destinations/Place1";
