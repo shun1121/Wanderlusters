@@ -9,7 +9,9 @@ Here's how to get started with the Wanderlusters:
 # Setting up the Frontend
 
 1.  Clone this repository to your local machine using
-```git clone https://github.com/iiitl/Wanderlusters.git```
+```
+git clone https://github.com/iiitl/Wanderlusters.git
+```
 2.  Navigate to the root directory of the project and run `npm i` to install the necessary dependencies.
 3.  Run `npm start` to start the development server.
 4.  Visit `http://localhost:3000` in your web browser to access the website.
