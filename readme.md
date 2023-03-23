@@ -29,7 +29,7 @@ Please note that you must have Node.js installed on your system in order to run 
 
 # Contribute
 
-We welcome contributions to the Places Guide website. If you have any suggestions or improvements, please feel free to submit a pull request. 
+We welcome contributions to the Wanderlusters. If you have any suggestions or improvements, please feel free to submit a pull request. 
 
 ```
 Fork the repository
