@@ -50,6 +50,29 @@
 .form-floating > .form-control:not(:placeholder-shown) {
   color: black;
 }
+@media screen and (max-width: 768px) {
+  .form-floating > button {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .form-floating > button {
+    width: 90%;
+  }
+}
+.form-control {
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  .form-control {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .form-control {
+    width: 100%;
+  }
+}
 
 .containerTemp .contactLab {
   color: rgb(13, 31, 36);
